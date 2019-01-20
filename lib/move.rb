@@ -15,6 +15,6 @@ end
 #move takes three arguments (Board, position, X or O)
 
 
-def move(board,index,character = "X")
+def move(board,index,character="X")
     board[index] = character
 end
