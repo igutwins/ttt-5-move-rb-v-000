@@ -13,5 +13,7 @@ def input_to_index(position)
 end
 
 #move takes three arguments (Board, position, X or O)
+board = [" "," "," "," "," "," "," "," "," "]
+
 def move(board,index,character="X")
 end
