@@ -7,3 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 position = gets
 input_to_index(position)
+puts "What Value?"
+value = gets.strip
