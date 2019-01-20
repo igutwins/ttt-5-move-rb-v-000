@@ -12,6 +12,6 @@ def input_to_index(position)
   position.to_i - 1
 end
 
-#move takes the index and translates to a cell
-def move()
+#move takes three arguments (Board, position, X or O)
+def move(board,index,character="X")
 end
