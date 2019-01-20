@@ -9,11 +9,11 @@ end
 # code your input_to_index and move method here!
 #takes a user's input and convert to index of the board array
 def input_to_index(position)
-  position.to_i - 1
+  index = position.to_i - 1
 end
 
 #move takes three arguments (Board, position, X or O)
-board = [" "," "," "," "," "," "," "," "," "]
+
 
 def move(board,index,character="X")
 board[index] = character
