@@ -15,7 +15,7 @@ end
 #move takes three arguments (Board, position, X or O)
 
 
-def move(array,index,character = "X")
-    array[index] = character
+def move(board,index,character = "X")
+    board[index] = character
     puts array
 end
