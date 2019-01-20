@@ -7,8 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+#takes a user's input and convert to index of the board array
 def input_to_index(position)
+  index = position-1
 end
 
+#move takes the index and translates to a cell
 def move()
 end
