@@ -8,4 +8,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 position = gets
 input_to_index(position)
-move(board,input_to_index(position),"X")
+move(board,index,"X")
